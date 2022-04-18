@@ -1,0 +1,31 @@
+// Nama: Mochammad Febrian Maulana Hesda
+// NIM: 21090060
+// Kelas: 2D
+
+Dalam teori graf dan ilmu komputer ,Adjacent matrix adalah matriks bujur sangkar yang digunakan untuk merepresentasikan graf berhingga . Unsur-unsur matriks menunjukkan apakah pasangan simpul bertetangga atau tidak dalam graf tersebut.
+
+Dalam kasus khusus graf sederhana berhingga , matriks ketetanggaan adalah matriks (0,1) dengan nol pada diagonalnya. Jika grafik tidak berarah (yaitu semua sisinya adalah dua arah), matriks ketetanggaan adalah simetris . Hubungan antara graf dengan nilai eigen dan vektor eigen dari matriks ketetanggaannya dipelajari dalam teori graf spektral .
+
+Matriks ketetanggaan suatu graf harus dibedakan dari matriks insidensinya , representasi matriks berbeda yang elemen-elemennya menunjukkan apakah pasangan simpul-tepinya insiden atau tidak, dan matriks derajatnya , yang berisi informasi tentang derajat setiap simpul.
+
+Contoh:
+Setiap sel dalam tabel/matriks di atas direpresentasikan sebagai , di mana dan adalah simpul. Nilai dari adalah 1 atau 0 tergantung pada apakah ada sisi dari simpul ke simpul .
+
+Jika ada jalur dari ike j, maka nilainya adalah 1 jika tidak 0. Misalnya, ada jalur dari simpul 1 ke simpul 2, jadi 1 dan tidak ada jalur dari simpul 1 ke 3, jadi 0.AijA12A13
+
+Dalam kasus grafik tak berarah, matriks simetris terhadap diagonal karena setiap tepi (i,j), ada juga tepi (j,i).
+
+Grafik tak berarah
+Konvensi yang diikuti di sini (untuk graf tak berarah) adalah bahwa setiap sisi menambahkan 1 ke sel yang sesuai dalam matriks, dan setiap loop menambahkan 2. [4] Hal ini memungkinkan derajat suatu simpul dapat dengan mudah ditemukan dengan menjumlahkan nilai-nilai baik dalam baris atau kolomnya masing-masing dalam matriks ketetanggaan.
+
+Grafik terarah
+Matriks ketetanggaan dari graf berarah dapat asimetris. Satu dapat menentukan matriks ketetanggaan dari graf berarah baik sedemikian rupa sehingga
+
+elemen bukan nol A ij menunjukkan sisi dari i ke j atau
+itu menunjukkan tepi dari j ke i .
+Definisi sebelumnya umumnya digunakan dalam teori grafik dan analisis jaringan sosial (misalnya, sosiologi, ilmu politik, ekonomi, psikologi). [5] Yang terakhir ini lebih umum dalam ilmu terapan lainnya (misalnya, sistem dinamis, fisika, ilmu jaringan) di mana A kadang-kadang digunakan untuk menggambarkan dinamika linier pada grafik. [6]
+
+Dengan menggunakan definisi pertama, derajat masuk suatu simpul dapat dihitung dengan menjumlahkan entri-entri kolom yang bersesuaian dan derajat-keluar dari simpul dengan menjumlahkan entri-entri baris yang bersesuaian. Saat menggunakan definisi kedua, derajat masuk suatu simpul diberikan oleh jumlah baris yang sesuai dan derajat keluar diberikan oleh jumlah kolom yang sesuai.
+
+Grafik sepele
+Matriks ketetanggaan dari suatu graf lengkap memuat semua matriks kecuali sepanjang diagonal dimana hanya terdapat nol. Matriks ketetanggaan dari graf kosong adalah matriks nol .
